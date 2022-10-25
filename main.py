@@ -1,5 +1,9 @@
 from urllib.request import Request, urlopen
+"""
+This will result in a conflict.
 
+Made in the master branch.
+"""
 def fetch_random_dad_joke() -> str:
     req = Request(
         url="https://icanhazdadjoke.com/",
